@@ -1,0 +1,46 @@
+
+
+/* Container styling */
+div {
+   /* Set background color to blue */
+    padding: 10px;
+    margin: 10px;
+    overflow: hidden; /* Prevent scrolling for this specific container */
+  }
+  .scroll-container {
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    overflow-y: auto;
+     /* Enable vertical scrollbar when content exceeds the height */
+  }
+  /* Post styling */
+  h3 {
+    font-size:medium; /* Set font size to medium */
+    margin-bottom: 5px;
+  }
+    
+  /* Button styling */
+  button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: larger;
+  }
+.post-update{
+  max-width: 400px;
+  margin:50px auto;
+  padding: 40px;
+  border: 3px solid blueviolet;
+  border-radius: 5px;
+  box-shadow: 0 0 10px blueviolet;
+  background-color:whitesmoke;
+}
+.add-post{
+  max-width: 400px;
+  margin:50px auto;
+  padding: 40px;
+  border: 3px solid blueviolet;
+  border-radius: 5px;
+  box-shadow: 0 0 10px blueviolet;
+  background-color:whitesmoke;
+}
+  
